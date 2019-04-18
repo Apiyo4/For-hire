@@ -1,0 +1,69 @@
+body{
+background-image: url("https://i.pinimg.com/564x/22/19/ff/2219ff571edda87fdad7734b0007327e.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: black;
+  font-size: 20px;
+}
+header > img{
+  height: 80px;
+  width: 120px;
+}
+header > nav{
+ float: right;
+}
+header > nav > ul > li{
+  display: inline;
+  margin-right: 20px;
+}
+header > nav> ul > li > a{
+  font-size: 20px;
+  font-family: "Avenir", "Lucida", fantasy;
+  text-decoration: none;
+  color:inherit;
+}
+header > nav > ul > li > a:hover{
+  background-color: #33ccff;
+  text-decoration: underline;
+}
+.Motto{
+  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  font-style: oblique;
+  font-style: italic;
+}
+.sec{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+#For-Hire, #About, #Contacts{
+  text-align: center;
+  border-right: 0.1px solid white;
+  margin-right: 10px;
+  padding-right: 10px;
+  width: 65%;
+}
+footer{
+  opacity: 0.5;
+  font-weight: lighter;
+}
+.reach{
+  display: flex;
+  justify-content: flex-start;
+  position:relative;
+  left: 300px;
+}
+.reach #facebook, .reach #twitter{
+  padding-right: 300px;
+}
+span{
+  color: red;
+}
+footer > p{
+  text-align: center;
+}
