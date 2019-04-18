@@ -1,0 +1,59 @@
+body{
+  background-image: url("https://i.pinimg.com/564x/22/19/ff/2219ff571edda87fdad7734b0007327e.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  color: black;
+  font-size: 18px;
+}
+header > img{
+  height: 80px;
+  width: 120px;
+}
+header > nav{
+ float: right;
+}
+header > nav > ul > li{
+  display: inline;
+  margin-right: 20px;
+}
+header > nav> ul > li > a{
+  font-size: 20px;
+  font-family: "Avenir", "Lucida", fantasy;
+  text-decoration: none;
+  color:inherit;
+}
+header> nav > ul > li > a:hover{
+  background-color: #33ccff;
+  text-decoration: underline;
+}
+img{
+  height: 180px;
+  width: 180px;
+}
+p, h1{
+  text-align: center;
+}
+.Suits, .Shirts, .Dresses, .Trousers, .Shoes, .Accessories{
+  display: flex;
+  justify-content: space-around;
+}
+footer{
+  opacity: 0.5;
+  font-weight: lighter;
+}
+.reach{
+  display: flex;
+  justify-content: flex-start;
+  position:relative;
+  left: 300px;
+}
+.reach #facebook, .reach #twitter{
+  padding-right: 300px;
+}
+span{
+  color: red;
+}
+footer > p{
+  text-align: center;
+}

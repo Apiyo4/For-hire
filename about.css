@@ -1,0 +1,75 @@
+body{
+  background-image: url("https://i.pinimg.com/564x/22/19/ff/2219ff571edda87fdad7734b0007327e.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  color: black;
+  font-size: 18px;
+
+}
+header > img{
+  height: 80px;
+  width: 120px;
+}
+header > nav{
+ float: right;
+}
+header > nav > ul > li{
+  display: inline;
+  margin-right: 20px;
+}
+header > nav> ul > li > a{
+  font-size: 20px;
+  font-family: "Avenir", "Lucida", fantasy;
+  text-decoration: none;
+  color:inherit;
+}
+header> nav > ul > li > a:hover{
+  background-color: #33ccff;
+  text-decoration: underline;
+}
+
+.designers1{
+  display:flex;
+}
+.designers1 > #Shiyenze, .designers1 > #Woolworths, .designers2 > #Chillimango, .designers2 > #Katush{
+  padding-right: 10px;
+  margin-right: 10px;
+  width: 60%;
+}
+.designers1 > #Shiyenze > img, .designers1 > #Woolworths > img, .designers2 > #Chillimango > img, .designers2 > #Katush > img{
+  height: 120px;
+  width: 180px;
+  float:left;
+}
+.designers2{
+  display:flex;
+}
+footer{
+  opacity: 0.5;
+  font-weight: lighter;
+}
+.reach{
+  display: flex;
+  justify-content: flex-start;
+  position:relative;
+  left: 300px;
+}
+.reach #facebook, .reach #twitter{
+  padding-right: 300px;
+}
+table{
+  margin-left: 350px;
+  }
+
+ tr, th, td{
+  border: 0.1px solid black;
+  /*width: 60%;*/
+  text-align: center;
+}
+span{
+  color:red;
+}
+footer > p{
+  text-align: center;
+}

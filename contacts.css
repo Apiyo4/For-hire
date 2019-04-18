@@ -1,0 +1,71 @@
+body{
+  background-image: url("https://i.pinimg.com/564x/22/19/ff/2219ff571edda87fdad7734b0007327e.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  color: black;
+  font-size: 18px;
+}
+header > img{
+  height: 80px;
+  width: 120px;
+}
+header > nav{
+ float: right;
+}
+header > nav > ul > li{
+  display: inline;
+  margin-right: 20px;
+}
+header > nav> ul > li > a{
+  font-size: 20px;
+  font-family: "Avenir", "Lucida", fantasy;
+  text-decoration: none;
+  color:inherit;
+}
+header> nav > ul > li > a:hover{
+  background-color: #33ccff;
+  text-decoration: underline;
+}
+.info{
+  text-align: center;
+}
+table{
+  border: 1px hidden black;
+  margin-left: 400px;
+  margin-bottom: 100px;
+}
+table th, table td{
+  border: 1px hidden black;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+footer{
+  opacity: 0.5;
+  font-weight: lighter;
+}
+.reach{
+  display: flex;
+  justify-content: flex-start;
+  position:relative;
+  left: 300px;
+}
+.reach #facebook, .reach #twitter{
+  padding-right: 300px;
+}
+span{
+  color: red;
+}
+.form{
+  text-align: center;
+  display: inline-block;
+}
+input{
+  padding: 20px;
+  margin: 5px;
+  border-radius: 50px;
+  text-align: center;
+}
+footer > p{
+  text-align: center;
+}
